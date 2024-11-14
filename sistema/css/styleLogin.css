@@ -1,0 +1,53 @@
+.login {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* center; flex-start; flex-end; posição do form login*/
+    align-items: center;
+    display: flex
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .imagem {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Inclui o tamanho do preenchimento na largura total */
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  #forgot-password-link {
+    display: block;
+    color: #333;
+    margin-top: 10px;
+  }
+  
