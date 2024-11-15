@@ -151,7 +151,7 @@ $data_hoje = (new IntlDateFormatter(
 <div class="titulo_cab titulo_img"><u>Relatório de Pesagens</u></div>	
 	<div class="data_img"><?php echo mb_strtoupper($data_hoje) ?></div>
 
-	<img class="imagem" src="<?php echo $url_sistema ?>/sistema/img/logo_rel.jpg" width="200px" height="47">
+	<img class="imagem" src="<?php echo $url_sistema ?>sistema/img/ahvn_logo.jpg" width="200px" height="47">
 
 	
 	<br><br><br>
